@@ -1,18 +1,75 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8">
+<meta name="author" content="AnXin">
+<title>AXn的主页</title>
+<link rel="stylesheet" href="index.css">
+<link rel="shortcut icon" type="img/x-ico" href="image/favicon.ico">
+
 </head>
 
-<body>
+<body onload="change2(content,home);setDate()">
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+<!-- <script>document.write(Date())</script> -->
+<div id="page">
+	<div id="header">
+		<div id="title" onclick="change2(content,home)">
+			<a href="javascript:void(0);"><em>AXn </em>的主页</a></div>
+		<div id="login"><a href="javascript:void(0);" onclick="change2(content,log)">登录</a> &nbsp;&nbsp;
+				<a href="javascript:void(0);" onclick="change2(content,log)">注册</a></div>
+	</div>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+	
+	<div id="middle">
+	
+		<div id="m-left">
+		<ul class="link">
+			<li onclick="change2(content,perState)"><a href="javascript:void(0);">个人简介</a></li>
+			<li onclick="change2(content,home+siteInfo)"><a href="javascript:void(0);">网站说明</a></li>
+			<li onclick="change2(content,link)"><a href="javascript:void(0);">常用链接</a></li>
+			<li onclick="test()"><a href="javascript:void(0);">test</a></li>
+			<!-- <li></li> -->
+		</ul>
+		</div>
+		
+		<div id="m-right">
+		
+		<!--
+			<div id="toplink" class="t">
+		 
+				
+				
+			</div>
+		 -->
+		 
+			<div id="content">
+		 
+				<!-- <p>Welcome!</p> -->
+				<!-- <p>HTML,CSS,JavaScript,python,SQLite3从入门到放弃</p>
+				
+				 -->
+		 
+			</div>
+		  
+		</div>
+	</div>
+	<div id="time"></div>
+	<!-- <div id="ip" onclick="getIP(json)><iframe src="http://pv.sohu.com/cityjson?ie=utf-8 " width="800" height="50"></iframe></div> -->
+	<div id="bottom">copyright© axn@mail.ustc.edu.cn</div>
+</div>
 
-</body>
+
+<script src="index.js"></script>
+
+ 
+<!-- <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script> -->
+<!-- <script type="application/javascript"> -->
+   <!-- function getIP(json) { -->
+     <!-- document.getElementById("ip").innerHTML=("your public IP address is: ", json.ip); -->
+   <!-- } -->
+ <!-- </script> -->
+
+</body> 
 </html>
