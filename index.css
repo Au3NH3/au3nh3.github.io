@@ -1,6 +1,7 @@
 body{margin:0;
 	background-color:#EEE;
-	font-family:楷体,"Times New Roman";
+	font-size:20px;
+	font-family:'楷体',"Times New Roman";
 }
 
 a:link,a:visited {text-decoration:none;
@@ -83,8 +84,8 @@ a:link,a:visited {text-decoration:none;
 #bottom{
 	text-align:center;
 }
-
-.form{
+#content form{padding-top:25px;}
+.log{
 	width:250px;
 	/* height:200px; */
 	border: 1px solid blue;
