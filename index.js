@@ -80,7 +80,10 @@ function setDate(){
 	var y=d.getFullYear();
 	var m=d.getMonth()+1;
 	var date=d.getDate();
-	document.getElementById("time").innerHTML =y+"年"+m+"月"+date+"日";
+	var week=['日','一','二','三','四','五','六'];
+	var weekday=week[d.getDay()];
+	var time=y+"年"+m+"月"+date+"日&emsp;星期"+weekday;
+	document.getElementById("time").innerHTML =time;
 }	
 
 
