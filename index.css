@@ -1,7 +1,7 @@
 body{margin:0;
 	background-color:#EEE;
 	font-size:20px;
-	font-family:'楷体',"Times New Roman";
+	font-family:"Times New Roman",'华文楷体','楷体';
 }
 
 a:link,a:visited {text-decoration:none;
