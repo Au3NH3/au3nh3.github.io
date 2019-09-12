@@ -3,19 +3,19 @@ var content=document.getElementById("content");
 var home="<p>欢迎访问！</p>";
 var log=
 	'<form>\
-		<div class="form">\
+		<div class="log">\
 			<span>用户名:</span><input type="text" name="uname" value=""><br><br>\
 			<span>密	 码:</span> <input type="password" name="pwd" value=""><br><br>'+
 	//<input type="submit" value="提交" onclick="change2(content,fail+siteInfo)">&nbsp;&nbsp;
-		'<a href="javascript:void(0);" onclick="change2(content,fail+siteInfo)">提交</a>&nbsp;&nbsp;&nbsp;&nbsp;\
-		<input type="reset" value="重置">&nbsp;&nbsp;&nbsp;&nbsp;\
+		'<a href="javascript:void(0);" onclick="change2(content,fail+siteInfo)">提交</a>&emsp;&emsp;\
+		<input type="reset" value="重置">&emsp;&emsp;\
 		</div>\
 	</form>';
 var perState="<p>教育经历</p>\
-				<li>2013.9——2017.6 中国科学技术大学 物理学院</li>\
-				<li>2017.9——2020.6 中国科学技术大学 科学岛分院 (中国科学院等离子体物理研究所)</li>\
-			<p>兴趣爱好</p>\
-				<li>熟悉HTML+CSS+JavaScript, Python, C等编程语言，熟悉Linu操作系统</li>";
+		<li>2013.9——2017.6 中国科学技术大学 物理学院</li>\
+		<li>2017.9——2020.6 中国科学技术大学 科学岛分院 (中国科学院等离子体物理研究所)</li>\
+	<p>兴趣爱好</p>\
+		<li>熟悉HTML+CSS+JavaScript, Python, C等编程语言，熟悉Linu操作系统</li>";
 // var siteInfo=
 	// '<p>此网站为中国科学技术大学提供的个人主页功能，毕业半年后自动取消。</p>\
 	// <p>出于安全考虑，个人主页不支持PHP/JSP/ASP等服务器端程序。</p>\
@@ -25,13 +25,16 @@ var siteInfo='<p>......</p><p>waiting for revision</p>\
 			<p>欢迎访问<a href="//home.ustc.edu.cn/~axn">home.ustc.edu.cn/~axn</a></p>\
 			或 <a href="http://dwz.win/jmp" target="_blank">http://dwz.win/jmp</a></p>';
 		
-var link='<p style="min-width=640px">\
-			<span><a href="//www.baidu.com" target="_blank">百度</a></span>\
-			<span><a href="//www.ustc.edu.cn" target="_blank">中国科大</a></span>\
-			<span><a href="//mail.cstnet.cn" target="_blank">中科院邮箱</a></span>\
-			<span><a href="//www.hfcas.ac.cn" target="_blank">合肥研究院</a></span>\
-			</p>';
-			//<span><a href="//www.hfcas.ac.cn" target="_blank">等离子所</a></span>\
+var link='<p>\
+	<span><a href="//www.baidu.com" target="_blank">百度</a></span>\
+	<span><a href="//www.ustc.edu.cn" target="_blank">中国科大</a></span>\
+	<span><a href="//mail.cstnet.cn" target="_blank">中科院邮箱</a></span>\
+	<span><a href="//email.ustc.edu.cn" target="_blank">科大邮箱</a></span>\
+	<span><a href="//job.ustc.edu.cn" target="_blank">校园招聘</a></span>\
+	<span><a href="//www.hfcas.ac.cn" target="_blank">合肥研究院</a></span>\
+	<span><a href="//www.hfcas.ac.cn" target="_blank">等离子所</a></span>\
+	</p>';
+
 		
 var fail="<p>提交失败,暂不支持^_^</p>";
 // var fail="<p>提交失败</p>";
